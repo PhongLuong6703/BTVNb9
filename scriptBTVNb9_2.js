@@ -7,13 +7,10 @@ let b = parseFloat(prompt("Nhập Số Thứ Hai: "));
 
 //version 1:
 
-let min1;
+let a = min1;
 if (b < a) {
     min1 = b;
 } 
-else {
-    min1 = a;
-}
 console.log(`Số Nhỏ Nhất Là ${min1}`);
 
 //version 2:
